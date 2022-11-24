@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 2</title>
+</head>
+<body>
+    <h1 style="color: red">Iniziamo con l'esercizio 2</h1>
+    <p>L'esercizio prevede l'inserimento del tag input e button</p>
+    <p>Dati utente</p>
+    <form onsubmit="alert('Dati inseriti')">
+                <span style="color: red">Nome: &nbsp;</span>
+                <input type="Nome" placeholder="Inserisci il nome"/>
+            <br>
+                <span style="color: red">Cognome: &nbsp;</span>
+                <input type="Cognome" placeholder="Inserisci il cognome"/>
+            <br>
+                <span style="color:red">inserisci la data di nascita: &nbsp;</span> 
+                <input type="date" />
+            <br>
+                <span style="color: red">E-mail: &nbsp;</span>
+                <input type="email" placeholder="inserisci il tuo indirizzo E-mail" />
+            <br>
+                <span style="color: red">Password: &nbsp;</span>
+                <input type="Password" placeholder="Inserisci la tua password" />
+            <br>
+            <br>
+        <button type="submit">Clicca per confermare</button>
+    </form>
+    <h2>Dopo aver inserito i tuoi dati ti chiedo di indicare le tue preferenze musicali</h2>
+    <h4 style="color: green">Metti un flag sulle tue preferenza in fatto di musica:</h4> 
+    <table>
+        <tr><td>GENERE</td></tr>
+        <tr><td>Rock</td><td><input type="checkbox" /></td></tr> 
+        <tr><td>Pop</td><td><input type="checkbox" /></td></tr> 
+        <tr><td>Musica Classica</td><td><input type="checkbox" /></td></tr> 
+    </table>
+    <div>
+        <h4 style="color:brown">Ora inserisci il tuo preferito in assoluto:</h4>
+                    Rock <input type="radio" name="musica" value="rock" />
+                <br>
+                    Pop <input type="radio" name="musica" value="Pop" />
+                <br>
+                Musica Classica <input type="radio" name="musica" value="Musica Classica" />
+    </div>
+    <br>
+        <input type="radio"> Accetta termini e condizioni  
+    <br>
+        <form>
+            <button onclick="alert('Registrazione inviata')">INVIA REGISTRAZIONE</button> 
+        </form>
+</body>
+</html>
